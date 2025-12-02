@@ -1,0 +1,56 @@
+Bug Report
+Title:
+
+Stepper progress shows incorrect percentage for the current step
+
+Environment:
+
+Application: Stepper form
+
+Browser: (add your browser here)
+
+Test automation: Playwright
+
+Steps to Reproduce:
+
+Open the form that contains the stepper progress bar.
+
+Navigate to step 2 of the form.
+
+Inspect the progress bar element (data-current-progress).
+
+Compare it to the expected progress value for the current step.
+
+Expected Result:
+
+For step 2, the element data-current-progress should display 40%.
+Progress mapping should be:
+
+Step 1 → 20%
+
+Step 2 → 40%
+
+Step 3 → 60%
+
+Step 4 → 80%
+
+Step 5 → 100%
+
+The data-form-progress-current-step value should correctly reflect the step number.
+
+Actual Result:
+
+On step 2, the data-current-progress value is incorrectly shown as 20% instead of 40%.
+The progress bar displays the previous step’s progress value.
+
+Impact:
+
+Incorrect visual feedback for users
+
+Automated tests fail due to mismatched logic
+
+Potential confusion and wrong step completion tracking
+
+Severity:
+
+Medium — Functionality works, but user experience and automated validation are significantly affected.

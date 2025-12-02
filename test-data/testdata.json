@@ -1,0 +1,61 @@
+{
+    "validation": {
+        "step_1": {
+            "empty": "Enter your ZIP code.",
+            "wrong": "Wrong ZIP code."
+        },
+        "step_3": {
+            "choose": "Choose one of the variants."
+        },
+        "step_4": {
+            "empty_name": "Please enter your name.",
+            "short_name": "This value is too short. Your name should have at least 3 characters or more.",
+            "invalid_name": "Your name should consist only of latin letters, apostrophes, underscores, dots and dashes."
+        },
+        "step_5": {
+            "empty_phone": "Enter your phone number.",
+            "wrong_phone": "Wrong phone number."
+        }
+    },
+    "titles": {
+        "step_1": "What is your ZIP Code?",
+        "step_2": "Why are you interested in a walk-in tub?",
+        "step_3": "What type of property is this for?",
+        "step_4": "Who should we prepare this FREE estimate for?",
+        "step_5": "LAST STEP!"
+    },
+    "steps": {
+        "step_1": "step-1",
+        "step_2": "step-2",
+        "step_3": "step-3",
+        "step_4": "step-4",
+        "step_5": "step-5"
+    },
+    "valid_inputs": {
+        "zip": "90123",
+        "name": "Test Test",
+        "email": "test@mail.co",
+        "phone": "2222222222"
+    },
+    "invalid_inputs": {
+        "zip_empty": " ",
+        "zip_short": "123",
+        "zip_long": "123456",
+        "name_empty": "",
+        "name_short": "T",
+        "name_invalid": "Test123 Test123",
+        "email_empty": "",
+        "email_invalid": "Invalid Test Email",
+        "phone_empty": "",
+        "phone_short": "2"
+    },
+    "checkboxes": {
+        "other": "Other",
+        "safety": "Safety",
+        "rental_property": "Rental Property",
+        "mobile_home": "Mobile Home"
+    },
+    "thank_you": {
+        "heading": "Thank you!"
+    }
+}
